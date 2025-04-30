@@ -2,19 +2,20 @@
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { Download } from "lucide-react";
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 
 const HeroSection = () => {
   return (
     <section className="py-20 bg-primary text-white">
       <div className="container mx-auto flex flex-col md:flex-row items-center">
         <div className="md:w-1/3 flex justify-center mb-8 md:mb-0">
-          <div className="w-64 h-64 rounded-full overflow-hidden border-4 border-white">
-            <img 
-              src="/lovable-uploads/ef25b92d-db58-4afa-9f05-6740a2ddf752.png" 
+          <Avatar className="w-64 h-64 border-4 border-white">
+            <AvatarImage 
+              src="/lovable-uploads/2f47325d-baf1-429e-8553-b0437a4c6dba.png" 
               alt="Mirza Zarin Fatema" 
-              className="w-full h-full object-cover"
             />
-          </div>
+            <AvatarFallback>MZF</AvatarFallback>
+          </Avatar>
         </div>
         
         <div className="md:w-2/3 text-center md:text-left md:pl-10">
@@ -25,11 +26,6 @@ const HeroSection = () => {
             Passionate about creating responsive, user-friendly interfaces and
             implementing dynamic web applications.
           </p>
-          <a href="/resume.pdf" download="Mirza_Zarin_Fatema_Resume.pdf">
-            <Button className="bg-white text-primary hover:bg-white/90 px-6 py-2 rounded-md flex items-center gap-2">
-              <Download size={18} /> Download Resume
-            </Button>
-          </a>
         </div>
       </div>
     </section>

@@ -1,6 +1,5 @@
 
 import React from 'react';
-import { Download } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -17,14 +16,6 @@ const Footer = () => {
               <a href="#" className="hover:text-white/80 transition-colors">GitHub</a>
               <a href="#" className="hover:text-white/80 transition-colors">LinkedIn</a>
             </div>
-            
-            <a 
-              href="/resume.pdf" 
-              download="Mirza_Zarin_Fatema_Resume.pdf" 
-              className="flex items-center gap-2 border border-white/20 rounded px-4 py-2 hover:bg-white/10 transition-colors"
-            >
-              <Download size={16} /> Download Resume
-            </a>
           </div>
         </div>
         

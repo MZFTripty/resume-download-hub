@@ -1,7 +1,5 @@
 
 import React from 'react';
-import { Button } from "@/components/ui/button";
-import { Download } from "lucide-react";
 
 const Navbar = () => {
   return (
@@ -16,12 +14,6 @@ const Navbar = () => {
           <a href="#skills" className="nav-link">Skills</a>
           <a href="#contact" className="nav-link">Contact</a>
         </div>
-        
-        <a href="/resume.pdf" download="Mirza_Zarin_Fatema_Resume.pdf">
-          <Button className="btn-primary">
-            <Download size={18} /> Resume
-          </Button>
-        </a>
       </div>
     </nav>
   );

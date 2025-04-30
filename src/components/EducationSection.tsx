@@ -12,13 +12,13 @@ const EducationSection = () => {
     },
     {
       period: "2018-2019",
-      institution: "IDEAL SCHOOL & COLLEGE, BOGURA",
+      institution: "RDA LAB. SCHOOL & COLLEGE, BOGURA",
       degree: "Science Group, HSC",
       gpa: "GPA: 5.00 / 5.00"
     },
     {
       period: "2016-2017",
-      institution: "IDEAL SCHOOL & COLLEGE, BOGURA",
+      institution: "RDA LAB. SCHOOL & COLLEGE, BOGURA",
       degree: "Science Group, SSC",
       gpa: "GPA: 5.00 / 5.00"
     }

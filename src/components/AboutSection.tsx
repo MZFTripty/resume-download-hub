@@ -8,10 +8,11 @@ const AboutSection = () => {
         <h2 className="section-title">PROFILE</h2>
         <div className="max-w-3xl">
           <p className="text-gray-700 leading-relaxed">
-            I am an undergraduate student. But also I am experienced frontend web developer
-            with a passion for creating responsive, user-friendly interfaces. Proven track
-            record in designing and implementing dynamic web applications. Skilled in HTML, CSS, JavaScript,
-            and modern frontend frameworks like React. Understanding of UI/UX principles.
+            I am an undergraduate student pursuing Computer Science & Engineering. I am also an experienced frontend web developer
+            with a passion for creating responsive, user-friendly interfaces. I have a proven track
+            record in designing and implementing dynamic web applications using HTML, CSS, JavaScript,
+            and modern frontend frameworks like React. My strong understanding of UI/UX principles helps me create
+            engaging and intuitive web experiences.
           </p>
         </div>
       </div>
