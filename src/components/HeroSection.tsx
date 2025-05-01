@@ -19,7 +19,7 @@ const HeroSection = () => {
         </div>
         
         <div className="md:w-2/3 text-center md:text-left md:pl-10">
-          <h1 className="text-4xl md:text-5xl font-bold mb-2">MIRZA ZARIN FATEMA</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-2">MIRZA ZARIN FATEMA TRIPTY</h1>
           <h2 className="text-xl md:text-2xl mb-6">FRONTEND WEB DEVELOPER</h2>
           <p className="text-white/80 max-w-xl mb-8">
             I am an undergraduate student with experience in frontend web development.
